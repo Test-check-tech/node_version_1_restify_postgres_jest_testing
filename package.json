@@ -1,0 +1,38 @@
+{
+    "name": "node-hello",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./src/index.js",
+        "docs": "jsdoc -c ./.jsdoc.conf.json ",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/johnpapa/node-hello.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/johnpapa/node-hello/issues"
+    },
+    "homepage": "https://github.com/johnpapa/node-hello#readme",
+    "dependencies": {
+        "axios": "^0.20.0",
+        "jsdoc": "^3.6.5",
+        "node-cache": "^5.1.2",
+        "pg": "^8.3.3",
+        "pg-hstore": "^2.3.3",
+        "request": "^2.88.2",
+        "restify": "^8.5.1",
+        "sequelize": "^6.3.5"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "jest": "^26.4.2",
+        "mocha": "^8.1.2",
+        "sinon": "^9.0.3"
+    }
+}
